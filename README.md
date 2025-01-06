@@ -73,7 +73,8 @@ El proyecto se desarrolló utilizando ramas individuales para cada funcionalidad
 
 La gestión de cambios se realizó mediante **Jira Service Management**, destacando las siguientes solicitudes:  
 
-![image](https://github.com/user-attachments/assets/f76f7f33-4709-475b-b961-3965eff4636c)
+![Vista previa del Sistema de Elecciones](https://github.com/user-attachments/assets/f76f7f33-4709-475b-b961-3965eff4636c)
+
 
 
 1. ✏️ **Corrección de ortografía**: Ajustes en los textos de la interfaz.  
