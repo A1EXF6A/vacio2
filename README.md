@@ -54,7 +54,7 @@ El **Sistema de Elecciones** es una plataforma integral diseñada para mejorar l
   - Creación del módulo de propuestas.  
   - Gestión de sugerencias y funcionalidades relacionadas.  
   - Implementación de estadísticas sobre los votos.  
-  - [GitHub Profile](https://github.com/alex-guachi)  
+  - [GitHub Profile](https://github.com/A1EXF6A) 
 
 - **Alejandro**  
   - Desarrollo del módulo de noticias y eventos.  
