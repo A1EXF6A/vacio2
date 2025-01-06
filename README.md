@@ -73,17 +73,14 @@ El proyecto se desarrolló utilizando ramas individuales para cada funcionalidad
 
 La gestión de cambios se realizó mediante **Jira Service Management**, destacando las siguientes solicitudes:  
 
-![Vista previa del Sistema de Elecciones](https://github.com/user-attachments/assets/f76f7f33-4709-475b-b961-3965eff4636c)
-
-
-
-1. ✏️ **Corrección de ortografía**: Ajustes en los textos de la interfaz.  
-2. 🔒 **Restricción de votos**: Garantizar un voto único por candidato.  
-3. 📨 **Gestión de sugerencias**: Implementar filtrado y eliminación de sugerencias.  
-4. ⭐ **Favoritos**: Incorporación de marcadores para propuestas y noticias.  
-5. 🛠️ **Página principal**: Configuración de contenido destacado con hasta 4 elementos de cada categoría.  
-6. 📊 **Estadísticas**: Generación de reportes visuales de los votos emitidos.  
-7. 📝 **Manejo de propuestas**: Filtros dinámicos para explorar las propuestas según distintos criterios.  
+1. ✏️ **Corrección de ortografía**: Ajustes en los textos de la interfaz.
+3. 🔒 **Restricción de votos**: Garantizar un voto único por candidato.  
+4. 📨 **Gestión de sugerencias**: Implementar filtrado y eliminación de sugerencias.  
+5. ⭐ **Favoritos**: Incorporación de marcadores para propuestas y noticias.  
+6. 🛠️ **Página principal**: Configuración de contenido destacado con hasta 4 elementos de cada categoría.  
+7. 📊 **Estadísticas**: Generación de reportes visuales de los votos emitidos.  
+8. 📝 **Manejo de propuestas**: Filtros dinámicos para explorar las propuestas según distintos criterios.  
+![image](https://github.com/user-attachments/assets/9d545c79-44f2-4bf3-96a8-077516880423)
 
 ---
 
