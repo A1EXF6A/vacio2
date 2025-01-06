@@ -1,1 +1,2 @@
-![image](https://github.com/user-attachments/assets/25ec8b08-fb79-40a4-a423-e02e56aaded8)
+Sistema de Elecciones
+El presente proyecto consiste en el desarrollo de un sistema de elecciones que permite a los usuarios consultar información relevante de los candidatos, sus propuestas, algunas noticias y eventos, así como emitir votos de manera electrónica y enviar sugerencias. 
