@@ -42,17 +42,25 @@ El **Sistema de Elecciones** es una plataforma integral diseñada para mejorar l
 - **Heidi**  
   - Desarrollo de la página principal (**Home**).  
   - Configuración y personalización de la interfaz de usuario.  
+  - [GitHub Profile](https://github.com/heidi-github)  
+
 - **Alexander**  
   - Implementación de la sección de candidatos.  
   - Desarrollo de la funcionalidad para la emisión de votos electrónicos.  
   - Creación de la página de configuración.  
+  - [GitHub Profile](https://github.com/alexander-github)  
+
 - **Alex**  
   - Creación del módulo de propuestas.  
   - Gestión de sugerencias y funcionalidades relacionadas.  
   - Implementación de estadísticas sobre los votos.  
+  - [GitHub Profile](https://github.com/alex-guachi)  
+
 - **Alejandro**  
   - Desarrollo del módulo de noticias y eventos.  
   - Funcionalidades asociadas a favoritos para noticias y propuestas.  
+  - [GitHub Profile](https://github.com/alejandro-github)  
+
 
 ---
 
