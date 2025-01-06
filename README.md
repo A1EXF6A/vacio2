@@ -1,18 +1,31 @@
 # **Sistema de Elecciones**
 
-El **Sistema de Elecciones** es un proyecto diseñado para facilitar la consulta de información sobre candidatos, sus propuestas, noticias, y eventos relacionados, permitiendo a los usuarios emitir votos de manera electrónica y enviar sugerencias para mejorar la experiencia democrática.
+El **Sistema de Elecciones** es una plataforma integral diseñada para mejorar la experiencia democrática, permitiendo la consulta de información sobre candidatos, la emisión de votos electrónicos, y el acceso a noticias, propuestas, y eventos relacionados con las elecciones.
+
+---
+
+## **Índice**
+
+1. [Características principales](#características-principales)  
+2. [Tecnologías utilizadas](#tecnologías-utilizadas)  
+3. [Autores y responsabilidades](#autores-y-responsabilidades)  
+4. [Gestión del proyecto](#gestión-del-proyecto)  
+   - [Repositorio remoto](#repositorio-remoto)  
+   - [Solicitudes de cambios](#solicitudes-de-cambios)  
+5. [Estado del proyecto](#estado-del-proyecto)  
+6. [Agradecimientos](#agradecimientos)  
 
 ---
 
 ## **Características principales**
 
-- Consulta de información relevante sobre candidatos y sus propuestas.
-- Emisión de votos electrónicos con restricción de un voto por candidato.
-- Acceso a noticias y eventos relacionados con las elecciones.
-- Función para marcar noticias y propuestas como favoritas.
-- Envío y gestión de sugerencias por parte de los usuarios.
-- Estadísticas sobre los votos emitidos para los candidatos.
-- Página principal personalizable con información destacada.
+- **Consulta de candidatos**: Acceso a información detallada sobre cada candidato y sus propuestas.  
+- **Voto electrónico seguro**: Restricción a un voto por candidato.  
+- **Noticias y eventos**: Información actualizada sobre actividades relacionadas con las elecciones.  
+- **Favoritos**: Posibilidad de marcar noticias y propuestas destacadas como favoritas.  
+- **Gestión de sugerencias**: Envío, filtrado y eliminación de sugerencias por parte de los usuarios.  
+- **Estadísticas en tiempo real**: Visualización de los votos emitidos para cada candidato.  
+- **Página principal personalizable**: Configuración dinámica de contenido destacado como propuestas, noticias, y eventos.  
 
 ---
 
@@ -26,39 +39,49 @@ El **Sistema de Elecciones** es un proyecto diseñado para facilitar la consulta
 
 ## **Autores y responsabilidades**
 
-- **Heidi**: Desarrollo de la página principal (Home).  
-- **Alexander**: Implementación de la sección de candidatos, emisión de votos y configuración de la página.  
-- **Alex**: Creación del apartado de propuestas, gestión de sugerencias y funcionalidades relacionadas.  
-- **Alejandro**: Desarrollo del módulo de noticias, eventos y sus funcionalidades asociadas.  
+- **Heidi**  
+  - Desarrollo de la página principal (**Home**).  
+  - Configuración y personalización de la interfaz de usuario.  
+- **Alexander**  
+  - Implementación de la sección de candidatos.  
+  - Desarrollo de la funcionalidad para la emisión de votos electrónicos.  
+  - Creación de la página de configuración.  
+- **Alex**  
+  - Creación del módulo de propuestas.  
+  - Gestión de sugerencias y funcionalidades relacionadas.  
+  - Implementación de estadísticas sobre los votos.  
+- **Alejandro**  
+  - Desarrollo del módulo de noticias y eventos.  
+  - Funcionalidades asociadas a favoritos para noticias y propuestas.  
 
 ---
 
 ## **Gestión del proyecto**
 
-### **Repositorio remoto**  
-Cada funcionalidad fue desarrollada en ramas individuales y posteriormente integradas al repositorio remoto en **GitHub**.
+### **Repositorio remoto**
 
-### **Solicitudes de cambios**  
-Las siguientes solicitudes fueron gestionadas a través de **Jira Service Management**:  
-- **Corrección de ortografía**: Ajuste de textos en la interfaz de usuario.  
-- **Restricción de votos**: Asegurar que cada usuario solo pueda votar una vez por candidato.  
-- **Envío de sugerencias**: Permitir múltiples sugerencias relacionadas con candidatos o propuestas.  
-- **Propuestas favoritas**: Añadir la funcionalidad para marcar propuestas como favoritas.  
-- **Noticias favoritas**: Implementar la opción de agregar noticias como favoritas.  
-- **Gestión de sugerencias**: Funciones para filtrar y eliminar sugerencias.  
-- **Configuración del Home**: Mostrar información destacada de 4 propuestas, noticias y eventos cercanos.  
-- **Estadísticas**: Visualización de estadísticas sobre los votos emitidos.  
-- **Página de configuración**: Implementar una sección para personalizar el contenido de la página.  
-- **Manejo de propuestas**: Filtrar propuestas según criterios definidos.  
+El proyecto se desarrolló utilizando ramas individuales para cada funcionalidad. Estas ramas se integraron al repositorio remoto en **GitHub**, asegurando un flujo de trabajo ágil y colaborativo.
+
+### **Solicitudes de cambios**
+
+La gestión de cambios se realizó mediante **Jira Service Management**, destacando las siguientes solicitudes:  
+
+1. **Corrección de ortografía**: Ajustes en los textos de la interfaz.  
+2. **Restricción de votos**: Garantizar un voto único por candidato.  
+3. **Gestión de sugerencias**: Implementar filtrado y eliminación de sugerencias.  
+4. **Favoritos**: Incorporación de marcadores para propuestas y noticias.  
+5. **Página principal**: Configuración de contenido destacado con hasta 4 elementos de cada categoría.  
+6. **Estadísticas**: Generación de reportes visuales de los votos emitidos.  
+7. **Manejo de propuestas**: Filtros dinámicos para explorar las propuestas según distintos criterios.  
 
 ---
 
 ## **Estado del proyecto**
 
-El proyecto se encuentra **terminado** y listo para su despliegue.  
+El **Sistema de Elecciones** se encuentra en su versión final, **terminado** y listo para su despliegue en un entorno de producción.
 
 ---
 
 ## **Agradecimientos**
 
-Agradecemos a todas las personas que contribuyeron directa o indirectamente a la realización de este proyecto. Su apoyo fue fundamental para lograr este objetivo.
+Agradecemos a todos los miembros del equipo y colaboradores externos que aportaron su tiempo, conocimientos y esfuerzo en cada etapa del desarrollo. Este proyecto no hubiera sido posible sin su dedicación y profesionalismo.  
