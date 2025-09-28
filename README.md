@@ -8,21 +8,26 @@ El sistema implementa una arquitectura de microservicios completamente funcional
 
 ```mermaid
 graph TB
-    A[🌐 Frontend] --> B[🔀 Gateway .NET]
+    %% Flujo principal
+    A[🌐 Frontend] --> B[🔀 Gateway (.NET)]
     B --> C[⚕️ Admin API]
     B --> D[📋 Consultas API]
     C --> E[🗄️ Admin DB]
     D --> F[🗄️ Consultas DB]
-    E --> G
+
+    %% Bases de datos conectadas a Azure
+    E --> G[☁️ Azure]
     F --> G
-    G -->[Azure]
-    
-    style A fill:#003366
-    style B fill:#512bd4
-    style C fill:#339933
-    style D fill:#339933
-    style E fill:#003545
-    style F fill:#003545
+
+    %% Estilos personalizados
+    style A fill:#003366,stroke:#000,stroke-width:1px,color:#fff
+    style B fill:#512bd4,stroke:#000,stroke-width:1px,color:#fff
+    style C fill:#339933,stroke:#2e7d32,stroke-width:1px,color:#fff
+    style D fill:#339933,stroke:#2e7d32,stroke-width:1px,color:#fff
+    style E fill:#003545,stroke:#001f1f,stroke-width:1px,color:#fff
+    style F fill:#003545,stroke:#001f1f,stroke-width:1px,color:#fff
+    style G fill:#0078D4,stroke:#004578,stroke-width:1px,color:#fff
+
 ```
 
 
