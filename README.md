@@ -8,11 +8,14 @@ El sistema implementa una arquitectura de microservicios completamente funcional
 
 ```mermaid
 graph TB
-    A[🌐 Frontend React] --> B[🔀 Gateway .NET]
+    A[🌐 Frontend] --> B[🔀 Gateway .NET]
     B --> C[⚕️ Admin API]
     B --> D[📋 Consultas API]
     C --> E[🗄️ Admin DB]
     D --> F[🗄️ Consultas DB]
+    E --> G
+    F --> G
+    G -->[Azure]
     
     style A fill:#003366
     style B fill:#512bd4
