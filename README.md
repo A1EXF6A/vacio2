@@ -11,16 +11,22 @@ graph TB
     A[🌐 Frontend React] --> B[🔀 Gateway .NET]
     B --> C[⚕️ Admin API]
     B --> D[📋 Consultas API]
-    C --> E[🗄️ Admin DB (Azure SQL)]
-    D --> F[🗄️ Consultas DB (Azure SQL)]
-    
+
+    subgraph Azure[☁️ Azure Cloud]
+        E[🗄️ Admin DB]
+        F[🗄️ Consultas DB]
+    end
+
+    C --> E
+    D --> F
+
     style A fill:#003366
     style B fill:#512bd4
     style C fill:#339933
     style D fill:#339933
-    style E fill:#007FFF
-    style F fill:#007FFF
-
+    style E fill:#003545
+    style F fill:#003545
+    style Azure fill:#00a4ef,stroke:#ffffff,stroke-width:2px,color:#ffffff
 ```
 
 
