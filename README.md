@@ -5,24 +5,21 @@ Sistema completo de gestión hospitalaria construido con arquitectura de microse
 ## 🏗️ Arquitectura del Sistema
 
 El sistema implementa una arquitectura de microservicios completamente funcional:
+
 ```mermaid
 graph TB
-    %% Nodos principales
-    A[🌐 Frontend Web/App] --> B[🔀 API Gateway (.NET)]
-    B --> C[⚕️ Admin Service API]
-    B --> D[📋 Consultas Service API]
+    A[🌐 Frontend React] --> B[🔀 Gateway .NET]
+    B --> C[⚕️ Admin API]
+    B --> D[📋 Consultas API]
+    C --> E[🗄️ Admin DB]
+    D --> F[🗄️ Consultas DB]
     
-    %% Bases de datos en Azure
-    C --> E[(🗄️ Azure SQL Admin DB)]
-    D --> F[(🗄️ Azure SQL Consultas DB)]
-
-    %% Estilos personalizados
-    style A fill:#61dafb,stroke:#000,stroke-width:1px,color:#000
-    style B fill:#512bd4,stroke:#000,stroke-width:1px,color:#fff
-    style C fill:#4caf50,stroke:#2e7d32,stroke-width:1px,color:#fff
-    style D fill:#4caf50,stroke:#2e7d32,stroke-width:1px,color:#fff
-    style E fill:#0078D4,stroke:#004578,stroke-width:1px,color:#fff
-    style F fill:#0078D4,stroke:#004578,stroke-width:1px,color:#fff
+    style A fill:#61dafb
+    style B fill:#512bd4
+    style C fill:#339933
+    style D fill:#339933
+    style E fill:#003545
+    style F fill:#003545
 ```
 
 
