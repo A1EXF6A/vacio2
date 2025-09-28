@@ -67,7 +67,6 @@ graph TB
 ```
 hospitalSystem/
 ├── 📚 README.md                    # Documentación principal          
-├── 
 ├── 🏥 admin-api/                   # API de Administración
 ├── 📋 consultas-api/               # API de Consultas Médicas
 ├── 🔀 gateway-api/                 # Gateway .NET
