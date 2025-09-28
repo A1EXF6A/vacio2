@@ -23,17 +23,6 @@ graph TB
     style D fill:#4caf50,stroke:#2e7d32,stroke-width:1px,color:#fff
     style E fill:#0078D4,stroke:#004578,stroke-width:1px,color:#fff
     style F fill:#0078D4,stroke:#004578,stroke-width:1px,color:#fff
-
-    %% Agrupación opcional (subgráfica visual)
-    subgraph Backend Services
-        C
-        D
-    end
-
-    subgraph Azure Databases
-        E
-        F
-    end
 ```
 
 
