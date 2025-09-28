@@ -66,57 +66,12 @@ graph TB
 
 ```
 hospitalSystem/
-├── 📚 README.md                    # Documentación principal
-├── 🐳 docker-compose.yml           # Orquestación de contenedores
+├── 📚 README.md                    # Documentación principal          
 ├── 
 ├── 🏥 admin-api/                   # API de Administración
-│   ├── 📚 README.md                # Documentación específica
-│   ├── 📦 package.json
-│   ├── 📋 tsconfig.json
-│   ├── 🐳 Dockerfile
-│   ├── ⚙️ .env.example
-│   └── 📂 src/
-│       ├── 🎮 controllers/         # Lógica de endpoints
-│       ├── 🗃️ entities/            # Modelos de base de datos
-│       ├── 🛡️ middleware/          # Autenticación y validación
-│       ├── 🛤️ routes/              # Definición de rutas
-│       ├── ⚙️ app.ts               # Configuración de Express
-│       ├── 🗄️ data-source.ts       # Configuración de TypeORM
-│       └── 🚀 server.ts            # Punto de entrada
-│
 ├── 📋 consultas-api/               # API de Consultas Médicas
-│   ├── 📚 README.md
-│   ├── 📦 package.json
-│   ├── 📋 tsconfig.json
-│   ├── 🐳 Dockerfile
-│   ├── ⚙️ .env.example
-│   └── 📂 src/
-│       ├── 🎮 controllers/
-│       ├── 🗃️ entities/
-│       ├── 🛡️ middleware/
-│       ├── 🛤️ routes/
-│       └── ... (estructura similar)
-│
 ├── 🔀 gateway-api/                 # Gateway .NET
-│   ├── 📚 README.md
-│   ├── 📦 gateway-api.csproj
-│   ├── ⚙️ appsettings.json
-│   ├── 🚀 Program.cs
-│   ├── 🎮 Controllers/
-│   ├── 🛡️ Middleware/
-│   ├── 🔧 Services/
-│   └── ⚙️ Configuration/
-│
-└── 🌐 frontend/                    # Interfaz React
-    ├── 📚 README.md
-    ├── 📦 package.json
-    ├── 📋 tsconfig.json
-    ├── 📂 public/
-    └── 📂 src/
-        ├── 🧩 components/          # Componentes React
-        ├── 🔄 contexts/            # Context API
-        ├── 🌐 services/            # Cliente HTTP
-        └── 🎨 styles/              # CSS personalizado
+
 ```
 
 ## 🚀 Instalación y Configuración
