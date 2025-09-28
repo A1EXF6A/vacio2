@@ -5,7 +5,7 @@ Sistema completo de gestión hospitalaria construido con arquitectura de microse
 ## 🏗️ Arquitectura del Sistema
 
 El sistema implementa una arquitectura de microservicios completamente funcional:
-
+```mermaid
 graph TB
     %% Nodos principales
     A[🌐 Frontend Web/App] --> B[🔀 API Gateway (.NET)]
@@ -34,6 +34,7 @@ graph TB
         E
         F
     end
+```
 
 
 ### Componentes Principales
