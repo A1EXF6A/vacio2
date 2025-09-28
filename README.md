@@ -14,7 +14,7 @@ graph TB
     C --> E[🗄️ Admin DB]
     D --> F[🗄️ Consultas DB]
     
-    style A fill:#61dafb
+    style A fill:#003366
     style B fill:#512bd4
     style C fill:#339933
     style D fill:#339933
