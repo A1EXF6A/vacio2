@@ -8,7 +8,7 @@ El sistema implementa una arquitectura de microservicios completamente funcional
 
 ```mermaid
 graph TB
-    A[🌐 Frontend React] --> B[🔀 Gateway .NET]
+    A[🌐 Frontend] --> B[🔀 Gateway .NET]
     B --> C[⚕️ Admin API]
     B --> D[📋 Consultas API]
 
